@@ -12,4 +12,4 @@
 
 %% @doc encode a IDNA domain to ascii
 to_ascii(Domain) ->
-    idna:utf8_to_ascii(Domain).
+    idna:domain_utf8_to_ascii(Domain).
